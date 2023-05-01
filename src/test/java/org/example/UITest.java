@@ -7,8 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class UITest {
-    ChromeDriver driver = new ChromeDriver();
-
     @Test
     public void UITest() throws InterruptedException{
         WebDriver driver= BrowserParameter.setupBrowser("chrome","https://open.spotify.com/");
